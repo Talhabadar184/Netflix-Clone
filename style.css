@@ -1,0 +1,198 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+    background-image: url(Images/bg.jpg)  ;
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px,100vw);
+    
+}
+.main .box
+{
+    height: 75vh;
+    width: 100vw;
+    opacity: 0.44; 
+    position: absolute;
+    top: 0;
+    background-color: black;    
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 75vw;
+    height: 50px;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+}
+nav img{
+    width: 146px;
+    position: relative;
+    top: 21px;
+    z-index: 10;
+}
+nav button{
+background-color: red;
+    position: relative;
+    top: 21px;
+    z-index: 10;
+    width: 72px;
+    height: 35px;
+    color: white;
+    border-radius: 9px;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+}
+.hero
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 80%;
+    position: relative;
+    gap: 20px;
+}
+
+.hero h1
+ {
+    font-weight: 1000;
+    font-size: 55PX;
+    text-align: center;
+    margin: 20px 0;
+}
+.hero h3{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.hero input {
+    width: 290px;
+    height: 40px;
+    align-items: center;
+    background-color: rgba(23, 23, 23,0.2);
+    color: white;
+}
+.hero span button {
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    color: white;
+}
+.seperation
+{
+    height: 10px;
+    background-color: gray;
+    width: 100vw;
+    margin-top: 83px;
+}
+
+
+.first
+{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+section img
+{
+    width: 30vw;
+    position: relative;
+    margin-top: 45px;
+}
+section video {
+    position: absolute;
+    right: 284px;
+    width: 22vw;
+    top: 91vh;
+}
+section.first > div
+{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div:nth-child(1)
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+section.first > div:nth-child(2)
+{
+    font-size: 20px;
+}
+.seperation1
+{
+    height: 10px;
+    background-color: gray;
+    width: 100vw;   
+}
+
+
+.second
+{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    margin: auto;
+    font-size: 40px ;
+}
+.seperation2
+{
+    height: 10px;
+    background-color: gray;
+    width: 100vw;   
+}
+
+.third
+{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    margin: auto;
+    font-size: 40px ;
+}
+.seperation3
+{
+    height: 10px;
+    background-color: gray;
+    width: 100vw;   
+}
+.faq h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+.faq{
+    background-color: black;
+    color: white;
+}
+.faqbox
+{
+    display: flex;
+    background-color: gray;
+    max-width: 40vw;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 25px;
+    cursor: pointer;
+}
